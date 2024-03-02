@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A212EA1B2B90CADA00E7804E /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A212EA1A2B90CADA00E7804E /* UIFont+Extension.swift */; };
+		A27BCB562B8CB06000F630C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27BCB552B8CB06000F630C6 /* AppDelegate.swift */; };
+		A27BCB582B8CB06000F630C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27BCB572B8CB06000F630C6 /* SceneDelegate.swift */; };
+		A27BCB5A2B8CB06000F630C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27BCB592B8CB06000F630C6 /* ViewController.swift */; };
+		A27BCB5D2B8CB06000F630C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27BCB5B2B8CB06000F630C6 /* Main.storyboard */; };
+		A27BCB5F2B8CB06100F630C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27BCB5E2B8CB06100F630C6 /* Assets.xcassets */; };
+		A27BCB622B8CB06100F630C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27BCB602B8CB06100F630C6 /* LaunchScreen.storyboard */; };
+		A27BCB6D2B8CB06200F630C6 /* trivago_buttonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27BCB6C2B8CB06200F630C6 /* trivago_buttonTests.swift */; };
+		A27BCB772B8CB06200F630C6 /* trivago_buttonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27BCB762B8CB06200F630C6 /* trivago_buttonUITests.swift */; };
+		A27BCB792B8CB06200F630C6 /* trivago_buttonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27BCB782B8CB06200F630C6 /* trivago_buttonUITestsLaunchTests.swift */; };
+		A27BCB862B8CB46A00F630C6 /* BrandButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27BCB852B8CB46A00F630C6 /* BrandButton.swift */; };
+		A2D0AF6B2B912433002B067C /* Proxima-Nova-Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2D0AF692B912433002B067C /* Proxima-Nova-Font.ttf */; };
+		A2D0AF6C2B912433002B067C /* Proxima-Nova-Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2D0AF692B912433002B067C /* Proxima-Nova-Font.ttf */; };
+		A2D0AF6D2B912433002B067C /* Proxima-Nova-Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2D0AF692B912433002B067C /* Proxima-Nova-Font.ttf */; };
+		A2D0AF6E2B912433002B067C /* Proxima-Nova-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2D0AF6A2B912433002B067C /* Proxima-Nova-Bold.ttf */; };
+		A2D0AF6F2B912433002B067C /* Proxima-Nova-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2D0AF6A2B912433002B067C /* Proxima-Nova-Bold.ttf */; };
+		A2D0AF702B912433002B067C /* Proxima-Nova-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2D0AF6A2B912433002B067C /* Proxima-Nova-Bold.ttf */; };
+		A2D0AF782B91F77B002B067C /* BrandButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D0AF772B91F77B002B067C /* BrandButtonViewModel.swift */; };
+		A2D0AF7A2B921AA0002B067C /* BrandButtonStyler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D0AF792B921AA0002B067C /* BrandButtonStyler.swift */; };
+		A2D0AF7C2B929291002B067C /* BrandButtonWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D0AF7B2B929291002B067C /* BrandButtonWrapper.swift */; };
+		A2D0AF7E2B9292AA002B067C /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D0AF7D2B9292AA002B067C /* SwiftUIView.swift */; };
+		A2D0AF852B9295E5002B067C /* BrandButtonSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D0AF842B9295E5002B067C /* BrandButtonSize.swift */; };
+		A2D0AF872B9295FA002B067C /* BrandButtonVariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D0AF862B9295FA002B067C /* BrandButtonVariant.swift */; };
+		A2D0AF8B2B9298FF002B067C /* BrandButtonConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D0AF8A2B9298FF002B067C /* BrandButtonConstants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A27BCB692B8CB06200F630C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A27BCB4A2B8CB06000F630C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A27BCB512B8CB06000F630C6;
+			remoteInfo = "trivago-button";
+		};
+		A27BCB732B8CB06200F630C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A27BCB4A2B8CB06000F630C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A27BCB512B8CB06000F630C6;
+			remoteInfo = "trivago-button";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A212EA1A2B90CADA00E7804E /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		A27BCB522B8CB06000F630C6 /* trivago-button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "trivago-button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27BCB552B8CB06000F630C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A27BCB572B8CB06000F630C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A27BCB592B8CB06000F630C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A27BCB5C2B8CB06000F630C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A27BCB5E2B8CB06100F630C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A27BCB612B8CB06100F630C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A27BCB632B8CB06100F630C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27BCB682B8CB06200F630C6 /* trivago-buttonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "trivago-buttonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27BCB6C2B8CB06200F630C6 /* trivago_buttonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trivago_buttonTests.swift; sourceTree = "<group>"; };
+		A27BCB722B8CB06200F630C6 /* trivago-buttonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "trivago-buttonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27BCB762B8CB06200F630C6 /* trivago_buttonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trivago_buttonUITests.swift; sourceTree = "<group>"; };
+		A27BCB782B8CB06200F630C6 /* trivago_buttonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trivago_buttonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A27BCB852B8CB46A00F630C6 /* BrandButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButton.swift; sourceTree = "<group>"; };
+		A2D0AF692B912433002B067C /* Proxima-Nova-Font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima-Nova-Font.ttf"; sourceTree = "<group>"; };
+		A2D0AF6A2B912433002B067C /* Proxima-Nova-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima-Nova-Bold.ttf"; sourceTree = "<group>"; };
+		A2D0AF772B91F77B002B067C /* BrandButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButtonViewModel.swift; sourceTree = "<group>"; };
+		A2D0AF792B921AA0002B067C /* BrandButtonStyler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButtonStyler.swift; sourceTree = "<group>"; };
+		A2D0AF7B2B929291002B067C /* BrandButtonWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButtonWrapper.swift; sourceTree = "<group>"; };
+		A2D0AF7D2B9292AA002B067C /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		A2D0AF842B9295E5002B067C /* BrandButtonSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButtonSize.swift; sourceTree = "<group>"; };
+		A2D0AF862B9295FA002B067C /* BrandButtonVariant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButtonVariant.swift; sourceTree = "<group>"; };
+		A2D0AF8A2B9298FF002B067C /* BrandButtonConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButtonConstants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A27BCB4F2B8CB06000F630C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27BCB652B8CB06200F630C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27BCB6F2B8CB06200F630C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A27BCB492B8CB06000F630C6 = {
+			isa = PBXGroup;
+			children = (
+				A27BCB542B8CB06000F630C6 /* trivago-button */,
+				A27BCB6B2B8CB06200F630C6 /* trivago-buttonTests */,
+				A27BCB752B8CB06200F630C6 /* trivago-buttonUITests */,
+				A27BCB532B8CB06000F630C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A27BCB532B8CB06000F630C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A27BCB522B8CB06000F630C6 /* trivago-button.app */,
+				A27BCB682B8CB06200F630C6 /* trivago-buttonTests.xctest */,
+				A27BCB722B8CB06200F630C6 /* trivago-buttonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A27BCB542B8CB06000F630C6 /* trivago-button */ = {
+			isa = PBXGroup;
+			children = (
+				A2D0AF812B9294B3002B067C /* App */,
+				A2D0AF802B929463002B067C /* Resources */,
+				A2D0AF7F2B92942C002B067C /* Component */,
+				A2D0AF822B9294CC002B067C /* Extensions */,
+				A27BCB632B8CB06100F630C6 /* Info.plist */,
+			);
+			path = "trivago-button";
+			sourceTree = "<group>";
+		};
+		A27BCB6B2B8CB06200F630C6 /* trivago-buttonTests */ = {
+			isa = PBXGroup;
+			children = (
+				A27BCB6C2B8CB06200F630C6 /* trivago_buttonTests.swift */,
+			);
+			path = "trivago-buttonTests";
+			sourceTree = "<group>";
+		};
+		A27BCB752B8CB06200F630C6 /* trivago-buttonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A27BCB762B8CB06200F630C6 /* trivago_buttonUITests.swift */,
+				A27BCB782B8CB06200F630C6 /* trivago_buttonUITestsLaunchTests.swift */,
+			);
+			path = "trivago-buttonUITests";
+			sourceTree = "<group>";
+		};
+		A2D0AF682B912411002B067C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A2D0AF6A2B912433002B067C /* Proxima-Nova-Bold.ttf */,
+				A2D0AF692B912433002B067C /* Proxima-Nova-Font.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		A2D0AF7F2B92942C002B067C /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				A2D0AF8C2B929D95002B067C /* Helpers */,
+				A2D0AF832B92956A002B067C /* Enums */,
+				A27BCB852B8CB46A00F630C6 /* BrandButton.swift */,
+				A2D0AF792B921AA0002B067C /* BrandButtonStyler.swift */,
+				A2D0AF772B91F77B002B067C /* BrandButtonViewModel.swift */,
+				A2D0AF7B2B929291002B067C /* BrandButtonWrapper.swift */,
+			);
+			name = Component;
+			sourceTree = "<group>";
+		};
+		A2D0AF802B929463002B067C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A2D0AF682B912411002B067C /* Fonts */,
+				A27BCB5E2B8CB06100F630C6 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A2D0AF812B9294B3002B067C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A27BCB552B8CB06000F630C6 /* AppDelegate.swift */,
+				A27BCB572B8CB06000F630C6 /* SceneDelegate.swift */,
+				A27BCB592B8CB06000F630C6 /* ViewController.swift */,
+				A2D0AF7D2B9292AA002B067C /* SwiftUIView.swift */,
+				A27BCB5B2B8CB06000F630C6 /* Main.storyboard */,
+				A27BCB602B8CB06100F630C6 /* LaunchScreen.storyboard */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		A2D0AF822B9294CC002B067C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A212EA1A2B90CADA00E7804E /* UIFont+Extension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		A2D0AF832B92956A002B067C /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				A2D0AF842B9295E5002B067C /* BrandButtonSize.swift */,
+				A2D0AF862B9295FA002B067C /* BrandButtonVariant.swift */,
+			);
+			name = Enums;
+			sourceTree = "<group>";
+		};
+		A2D0AF8C2B929D95002B067C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A2D0AF8A2B9298FF002B067C /* BrandButtonConstants.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A27BCB512B8CB06000F630C6 /* trivago-button */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27BCB7C2B8CB06200F630C6 /* Build configuration list for PBXNativeTarget "trivago-button" */;
+			buildPhases = (
+				A27BCB4E2B8CB06000F630C6 /* Sources */,
+				A27BCB4F2B8CB06000F630C6 /* Frameworks */,
+				A27BCB502B8CB06000F630C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "trivago-button";
+			productName = "trivago-button";
+			productReference = A27BCB522B8CB06000F630C6 /* trivago-button.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A27BCB672B8CB06200F630C6 /* trivago-buttonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27BCB7F2B8CB06200F630C6 /* Build configuration list for PBXNativeTarget "trivago-buttonTests" */;
+			buildPhases = (
+				A27BCB642B8CB06200F630C6 /* Sources */,
+				A27BCB652B8CB06200F630C6 /* Frameworks */,
+				A27BCB662B8CB06200F630C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A27BCB6A2B8CB06200F630C6 /* PBXTargetDependency */,
+			);
+			name = "trivago-buttonTests";
+			productName = "trivago-buttonTests";
+			productReference = A27BCB682B8CB06200F630C6 /* trivago-buttonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A27BCB712B8CB06200F630C6 /* trivago-buttonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27BCB822B8CB06200F630C6 /* Build configuration list for PBXNativeTarget "trivago-buttonUITests" */;
+			buildPhases = (
+				A27BCB6E2B8CB06200F630C6 /* Sources */,
+				A27BCB6F2B8CB06200F630C6 /* Frameworks */,
+				A27BCB702B8CB06200F630C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A27BCB742B8CB06200F630C6 /* PBXTargetDependency */,
+			);
+			name = "trivago-buttonUITests";
+			productName = "trivago-buttonUITests";
+			productReference = A27BCB722B8CB06200F630C6 /* trivago-buttonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A27BCB4A2B8CB06000F630C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					A27BCB512B8CB06000F630C6 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					A27BCB672B8CB06200F630C6 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = A27BCB512B8CB06000F630C6;
+					};
+					A27BCB712B8CB06200F630C6 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = A27BCB512B8CB06000F630C6;
+					};
+				};
+			};
+			buildConfigurationList = A27BCB4D2B8CB06000F630C6 /* Build configuration list for PBXProject "trivago-button" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A27BCB492B8CB06000F630C6;
+			productRefGroup = A27BCB532B8CB06000F630C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A27BCB512B8CB06000F630C6 /* trivago-button */,
+				A27BCB672B8CB06200F630C6 /* trivago-buttonTests */,
+				A27BCB712B8CB06200F630C6 /* trivago-buttonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A27BCB502B8CB06000F630C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27BCB622B8CB06100F630C6 /* LaunchScreen.storyboard in Resources */,
+				A27BCB5F2B8CB06100F630C6 /* Assets.xcassets in Resources */,
+				A2D0AF6E2B912433002B067C /* Proxima-Nova-Bold.ttf in Resources */,
+				A2D0AF6B2B912433002B067C /* Proxima-Nova-Font.ttf in Resources */,
+				A27BCB5D2B8CB06000F630C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27BCB662B8CB06200F630C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D0AF6F2B912433002B067C /* Proxima-Nova-Bold.ttf in Resources */,
+				A2D0AF6C2B912433002B067C /* Proxima-Nova-Font.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27BCB702B8CB06200F630C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D0AF702B912433002B067C /* Proxima-Nova-Bold.ttf in Resources */,
+				A2D0AF6D2B912433002B067C /* Proxima-Nova-Font.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A27BCB4E2B8CB06000F630C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D0AF852B9295E5002B067C /* BrandButtonSize.swift in Sources */,
+				A2D0AF7A2B921AA0002B067C /* BrandButtonStyler.swift in Sources */,
+				A27BCB5A2B8CB06000F630C6 /* ViewController.swift in Sources */,
+				A2D0AF872B9295FA002B067C /* BrandButtonVariant.swift in Sources */,
+				A2D0AF7E2B9292AA002B067C /* SwiftUIView.swift in Sources */,
+				A2D0AF8B2B9298FF002B067C /* BrandButtonConstants.swift in Sources */,
+				A27BCB562B8CB06000F630C6 /* AppDelegate.swift in Sources */,
+				A2D0AF782B91F77B002B067C /* BrandButtonViewModel.swift in Sources */,
+				A27BCB582B8CB06000F630C6 /* SceneDelegate.swift in Sources */,
+				A212EA1B2B90CADA00E7804E /* UIFont+Extension.swift in Sources */,
+				A27BCB862B8CB46A00F630C6 /* BrandButton.swift in Sources */,
+				A2D0AF7C2B929291002B067C /* BrandButtonWrapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27BCB642B8CB06200F630C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27BCB6D2B8CB06200F630C6 /* trivago_buttonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27BCB6E2B8CB06200F630C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27BCB772B8CB06200F630C6 /* trivago_buttonUITests.swift in Sources */,
+				A27BCB792B8CB06200F630C6 /* trivago_buttonUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A27BCB6A2B8CB06200F630C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A27BCB512B8CB06000F630C6 /* trivago-button */;
+			targetProxy = A27BCB692B8CB06200F630C6 /* PBXContainerItemProxy */;
+		};
+		A27BCB742B8CB06200F630C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A27BCB512B8CB06000F630C6 /* trivago-button */;
+			targetProxy = A27BCB732B8CB06200F630C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A27BCB5B2B8CB06000F630C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27BCB5C2B8CB06000F630C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A27BCB602B8CB06100F630C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27BCB612B8CB06100F630C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A27BCB7A2B8CB06200F630C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A27BCB7B2B8CB06200F630C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A27BCB7D2B8CB06200F630C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VTKFR9JREG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "trivago-button/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IR.trivago-button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A27BCB7E2B8CB06200F630C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VTKFR9JREG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "trivago-button/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IR.trivago-button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A27BCB802B8CB06200F630C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VTKFR9JREG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IR.trivago-buttonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trivago-button.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/trivago-button";
+			};
+			name = Debug;
+		};
+		A27BCB812B8CB06200F630C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VTKFR9JREG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IR.trivago-buttonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trivago-button.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/trivago-button";
+			};
+			name = Release;
+		};
+		A27BCB832B8CB06200F630C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VTKFR9JREG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IR.trivago-buttonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "trivago-button";
+			};
+			name = Debug;
+		};
+		A27BCB842B8CB06200F630C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VTKFR9JREG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IR.trivago-buttonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "trivago-button";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A27BCB4D2B8CB06000F630C6 /* Build configuration list for PBXProject "trivago-button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27BCB7A2B8CB06200F630C6 /* Debug */,
+				A27BCB7B2B8CB06200F630C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27BCB7C2B8CB06200F630C6 /* Build configuration list for PBXNativeTarget "trivago-button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27BCB7D2B8CB06200F630C6 /* Debug */,
+				A27BCB7E2B8CB06200F630C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27BCB7F2B8CB06200F630C6 /* Build configuration list for PBXNativeTarget "trivago-buttonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27BCB802B8CB06200F630C6 /* Debug */,
+				A27BCB812B8CB06200F630C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27BCB822B8CB06200F630C6 /* Build configuration list for PBXNativeTarget "trivago-buttonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27BCB832B8CB06200F630C6 /* Debug */,
+				A27BCB842B8CB06200F630C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A27BCB4A2B8CB06000F630C6 /* Project object */;
+}
